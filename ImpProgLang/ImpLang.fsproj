@@ -63,8 +63,12 @@
     </FsLex>
     <Compile Include="ParserUtil.fs" />
     <Compile Include="Interpreter.fs" />
+    <Compile Include="TreeGenerator.fs" />
+    <Compile Include="AstToTree.fs" />
+    <Compile Include="TreeToPS.fs" />
     <Compile Include="Program.fs" />
     <None Include="Script.fsx" />
+    <None Include="Trees.fsx" />
     <Content Include="README.txt" />
     <None Include="Factorial2.while">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

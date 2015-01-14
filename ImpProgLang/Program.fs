@@ -4,6 +4,8 @@ open AST
 open System
 open ParserUtil
 open Interpreter
+open AstToTree
+open TreeGenerator
 
 
 // Create an initial environment
