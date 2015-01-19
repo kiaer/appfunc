@@ -1,0 +1,9 @@
+C:\Users\Christian\Documents\GitHub\appfunc\NimGame\bin\Debug\NimGame.exe.config
+C:\Users\Christian\Documents\GitHub\appfunc\NimGame\bin\Debug\NimGame.XML
+C:\Users\Christian\Documents\GitHub\appfunc\NimGame\bin\Debug\NimGame.exe
+C:\Users\Christian\Documents\GitHub\appfunc\NimGame\bin\Debug\NimGame.pdb
+C:\Users\Christian\Documents\GitHub\appfunc\NimGame\bin\Debug\FSharp.Core.dll
+C:\Users\Christian\Documents\GitHub\appfunc\NimGame\bin\Debug\FSharp.Core.xml
+C:\Users\Christian\Documents\GitHub\appfunc\NimGame\obj\Debug\NimGame.fsprojResolveAssemblyReference.cache
+C:\Users\Christian\Documents\GitHub\appfunc\NimGame\obj\Debug\NimGame.exe
+C:\Users\Christian\Documents\GitHub\appfunc\NimGame\obj\Debug\NimGame.pdb
