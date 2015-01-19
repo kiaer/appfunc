@@ -45,8 +45,7 @@
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GetInfo.fs" />
-    <Compile Include="Program.fs" />
+    <Compile Include="NimAi.fs" />
     <None Include="Script.fsx" />
     <None Include="App.config" />
   </ItemGroup>

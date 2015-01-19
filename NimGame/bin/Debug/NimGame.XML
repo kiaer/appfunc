@@ -2,13 +2,34 @@
 <doc>
 <assembly><name>NimGame</name></assembly>
 <members>
-<member name="T:GetInfo">
+<member name="">
 
 </member>
 <member name="">
 
 </member>
-<member name="T:Program">
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:NimAi">
 
 </member>
 </members>
