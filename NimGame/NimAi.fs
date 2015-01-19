@@ -61,4 +61,3 @@ let AiMove (board:int list) =
     |board when (calcXor board)>0 ->printfn"not 0"
                                     del1s 0 board.Head board board
     |_ -> failwith "couldn't AI"
-
