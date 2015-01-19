@@ -6,10 +6,6 @@
 #load "GUI.fs"
 #load "Game.fs"
 
-open System 
-open System.Net 
-open System.Threading 
-
 open GUI
 open Game
 
