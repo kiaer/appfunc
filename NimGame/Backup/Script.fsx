@@ -127,11 +127,10 @@ and draw(l) =
 
 and AI_move(l) =
   async {ansBox.Text <- "AI Move"
-         if (calcXor l)=0 && List.sum l >0 then ansBox.Text <- "Haha i win :)"
+         if (calcXor l)=0 then ansBox.Text <- "Haha i win"
          gameBox.Text <- (StringFromSet l)
-         toggle [AIButton]
-         if List.sum l = 0 then toggle[AIButton;userButton]
-                                gameBox.Text<-"I win win win" 
+         toggle [AIButton;DownloadDataButton]
+         //enable [quitButton;AIButton;userButton]
          let! msg = ev.Receive()
          printfn"%A" msg
          match msg with
@@ -146,9 +145,8 @@ and AI_move(l) =
   async {ansBox.Text <- "User Move"
          gameBox.Text <- (StringFromSet l)
          toggle [userButton;DownloadDataButton]
-         
-         if List.sum l = 0 then toggle[AIButton;userButton]
-                                gameBox.Text<-"Aw man you win"
+         //disable [ fetchButton; clearButton; cancelButton;quitButton;AIButton;userButton]
+         //enable [quitButton;AIButton;userButton]
          let! msg = ev.Receive()
          printfn"%A" msg
          match msg with
